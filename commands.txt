@@ -1,0 +1,23 @@
+para ver as mudanças no código novo com o velho
+
+git log   //este comando serve para mostrar todos os commits feitos no git
+
+//para fazer uma comparação de 2 commits, é preciso pegar o id dos commits desejados
+/*
+ex:
+
+commit f421d99abd7ffd8b758a349f75061cf9edd4fda0   //id commit
+Author: Doug McInnes <doug@dougmcinnes.com>       //quem fez o commit
+Date:   Sun Apr 11 23:41:11 2010 -0700            //data do commit
+ 
+    made ship rotate faster                       //o que foi alterado
+
+commit 292faae8b1d912f93f3194f107acaabc6194ef96
+Author: dmcinnes <doug@dougmcinnes.com>
+Date:   Sun Jan 31 12:49:10 2010 -0800
+
+    added bullets
+*/
+//para a comparação
+
+git diff f421d99abd7ffd8b758a349f75061cf9edd4fda0 292faae8b1d912f93f3194f107acaabc6194ef96
